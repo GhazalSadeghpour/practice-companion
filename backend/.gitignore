@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+ENV/
+
+# Environment / secrets
+*.env
+
+# SQLite DB files (local dev DB)
+practice.db
+*.sqlite3
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor junk
+.vscode/
+.idea/
+*.swp
+.DS_Store
